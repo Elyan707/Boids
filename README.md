@@ -54,8 +54,14 @@ First of all insert the initial parameters using the command **g**. The followin
 * d = 300;
 * ds = 50.
 
-With the command **h** you can access the statistic of your flock.
+You can generate and observe more than a single flock, but for now the flocks don't interact.
+
 With the command **f** you can view the flock in an sfml window.
+This is an example of two flocks after a certain amount of time:
+
+![Two Flocks](example.png)
+
+If in the CMake file in the line 22 you change main-sfml.cpp with main.cpp and then repeat the process to run the programm, now among the possible commands there will be **s** and **h** to generate some statistics (about velocity and position) and view the relative histograms for a flock in a finite amount of time.
 
 
 
